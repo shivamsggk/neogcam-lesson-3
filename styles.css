@@ -2,7 +2,9 @@
 
 :root{
     --primary-color: #2563eb;
-    --dark-gray: #6b7280
+    --off-white:#f3f4f6;
+    --dark-gray:#6b7280;
+   
 }
 
 body{
@@ -20,7 +22,7 @@ hr {
     margin: auto;
 
 }
-/**link**/
+/** link **/
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -36,7 +38,7 @@ hr {
     border: 1px solid var(--primary-color);
 }
 
-/**list**/
+/** list **/
 .list-non-bullet{
     list-style: none;
 }
@@ -45,7 +47,7 @@ hr {
     padding: 0rem 0.5rem;
 }
 
-/**navigation**/
+/** navigation **/
 .navigation{
     background-color: var(--primary-color);
     color: white;
@@ -64,7 +66,7 @@ hr {
 .navigation .link-active{
     font-weight: bold;
 }
-/**header**/
+/** header **/
 .hero{
     padding: 2rem;
 }
@@ -75,8 +77,18 @@ hr {
 }
 .hero .hero-heading{
     padding: 1rem;
-    color: var(--dark-gray) ;
+    color:var(--dark-gray) ;
 }
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
+}
+/** section **/
+.section{
+    padding: 2rem;
+}
+.section h1 {
+    text-align: center;
+}
+.ow {
+    background-color:var(--off-white);
 }
